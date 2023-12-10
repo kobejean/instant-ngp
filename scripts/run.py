@@ -22,8 +22,6 @@ from scenes import *
 
 from tqdm import tqdm
 
-pyngp_path = '/home/ccl/Code/instant-ngp/build'
-sys.path.append(pyngp_path)
 import pyngp as ngp # noqa
 
 def parse_args():
